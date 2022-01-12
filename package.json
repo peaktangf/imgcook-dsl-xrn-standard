@@ -1,0 +1,25 @@
+{
+  "name": "@imgcook/xrn-standard",
+  "devDependencies": {
+    "@imgcook/dsl-helper": "^0.0.1-alpha.0",
+    "co": "^4.6.0",
+    "fs-extra": "^8.0.1",
+    "lodash": "^4.17.11",
+    "thunkify": "^2.1.2",
+    "vm2": "^3.5.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "xml-beautifier": "^0.4.0",
+    "xtemplate": "^4.6.1",
+    "xtpl": "^3.4.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.11.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.2"
+  },
+  "scripts": {
+    "test": "npm run build && node ./test/index.js",
+    "build": "npx webpack --config webpack.config.js --mode=production"
+  }
+}
